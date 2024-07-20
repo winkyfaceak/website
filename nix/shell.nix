@@ -1,9 +1,9 @@
 {
   go,
-  bun,
   air,
   gopls,
   typos,
+  dart-sass,
   callPackage,
 }:
 let
@@ -12,9 +12,9 @@ in
 mainPkg.overrideAttrs (oa: {
   nativeBuildInputs = [
     go
-    bun
     air
     gopls
     typos
+    dart-sass
   ] ++ (oa.nativeBuildInputs or [ ]);
 })

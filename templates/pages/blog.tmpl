@@ -5,11 +5,10 @@
 {{define "main"}}
 <section class="flex flex-col gap-4">
   <div class="pb-4">
-    <h1 class="text-4xl font-bold">
-      {{template "title" .}} {{if .Tag}} > 🏷️
-      <span class="text-special">{{.Tag}}</span>{{end}}
+    <h1 class="page-title">
+      {{template "title" .}} {{if .Tag}} > 🏷️<span class="text-special">{{.Tag}}</span>{{end}}
     </h1>
-    <h2 class="text-xl text-fg-lighter">{{template "description" .}}</h2>
+    <h2 class="page-description">{{template "description" .}}</h2>
   </div>
 
   <form

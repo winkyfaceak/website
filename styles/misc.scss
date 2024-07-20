@@ -1,0 +1,37 @@
+a {
+  color: var(--special);
+  &:hover {
+    color: var(--special);
+  }
+}
+
+select {
+  background-color: var(--card);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.25rem;
+  border-radius: 0.125rem;
+  border: 0 solid;
+  width: 100%;
+  text-transform: none;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  max-height: 0.5rem;
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--special);
+  border-radius: 0.25rem;
+}
+::-webkit-scrollbar-track {
+  background: #0000;
+}
+
+.text-special {
+  color: var(--special);
+}

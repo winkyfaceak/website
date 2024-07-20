@@ -1,0 +1,66 @@
+header {
+  width: 18rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  row-gap: 2rem;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.home-icon {
+  width: 2.5rem;
+  text-decoration-line: none;
+  color: var(--fg);
+  &:hover {
+    color: var(--special);
+  }
+}
+
+.nav-link {
+  text-decoration-line: none;
+  color: var(--fg);
+  &:hover {
+    color: var(--special);
+  }
+}
+
+.socials {
+  gap: 0.5rem;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  fill: var(--fg);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  &:hover {
+    fill: var(--special);
+  }
+}
+
+.webring {
+  gap: 0.5rem;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.webring-icon {
+  fill: var(--fg);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  &:hover {
+    fill: var(--special);
+  }
+}

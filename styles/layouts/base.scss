@@ -1,0 +1,41 @@
+html {
+  font-family:
+    Roboto,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-feature-settings: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  min-height: 100vh;
+  max-width: 80rem;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  margin: 0;
+
+  flex-direction: row;
+  column-gap: 2rem;
+  row-gap: 0;
+}
+
+main {
+  flex-direction: column;
+  padding-bottom: 2rem;
+  display: flex;
+  width: 100%;
+}
